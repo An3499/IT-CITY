@@ -111,7 +111,7 @@ overflow-x: hidden;
 }
 
 .number-text{
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 13px;
 
 }
@@ -203,7 +203,7 @@ color: #FFFFFF;
   display: flex;
   flex-direction: row;
   color: #FFFFFF;
-  width: 570px;
+  /* width: 570px; */
   height: 250px;
   font-weight: 100;
 
@@ -219,6 +219,7 @@ color: #FFFFFF;
 
 .title-center-text{
   font-weight: 100;
+  color: #FFFFFF;
 }
 
 .title-center-logo-1{
@@ -227,6 +228,11 @@ color: #FFFFFF;
   width: 56px;
   height: 56px;
   margin-bottom: 25px;
+}
+
+.title-center-text-1{
+  font-weight: 100;
+  color: #FFFFFF;
 }
 
 .title-center-border{
@@ -302,7 +308,7 @@ margin: 129.60000000000002px 0 120px 0;
   cursor: pointer;
   font-family: Roboto;
   font-weight: 500;
-  width: 300px;
+  width: 100%;
   height: 243px;
 }
 .list-wd ul {
@@ -313,6 +319,7 @@ margin: 129.60000000000002px 0 120px 0;
   display: flex;
   flex-direction: column;
   margin: 0;
+  width: 100%;
 }
 .list-wd li {
   padding-top: 37px;
@@ -320,7 +327,7 @@ margin: 129.60000000000002px 0 120px 0;
   font-size: 14px;
   width: 100%;
   text-align: left;
-  margin-left: 44px;
+  padding-left: 44px;
 }
 
 .list-wd li:hover {
@@ -497,14 +504,14 @@ ul hr {
 }
 
 .about-wrapper{
-  width: calc(100vw);
+  width: 100%;
+  height: 1067px;
   /* heightNaNpx; */
   -ms-flex-direction: column;
-  background: url(../img/maps.png) center center no-repeat;
+  background: url(../img/about_bg1.png) center center no-repeat;
   background-size: contain;
   background-color: #005aa3;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
@@ -516,9 +523,11 @@ ul hr {
 
 .about-container{
   margin-top: 96px;
-  width: calc(75%);
+  width: 1070px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+
 }
 
 .top-footer-wrapper{
@@ -703,7 +712,7 @@ margin-top: 130px;
 }
 
 .block-logo-1{
-  background: url(../img/fit1.psb) center center no-repeat;
+  background: url(../img/fit1.png) center center no-repeat;
   background-size: contain;
   width: 56px;
   height: 56px;
@@ -712,7 +721,7 @@ margin-top: 130px;
 }
 
 .block-logo-2{
-  background: url(../img/) center center no-repeat;
+  background: url(../img/network1.png) center center no-repeat;
   background-size: contain;
   width: 56px;
   height: 56px;
@@ -721,7 +730,7 @@ margin-top: 130px;
 }
 
 .block-logo-3{
-  background: url(../img/business-and-finance3.psb) center center no-repeat;
+  background: url(../img/business-and-finance1.png) center center no-repeat;
   background-size: contain;
   width: 56px;
   height: 56px;
@@ -729,7 +738,7 @@ margin-top: 130px;
 }
 
 .block-logo-4{
-  background: url(../img/world4.psb) center center no-repeat;
+  background: url(../img/world1.png) center center no-repeat;
   background-size: contain;
   width: 56px;
   height: 56px;
@@ -737,7 +746,7 @@ margin-top: 130px;
 }
 
 .block-logo-5{
-  background: url(../img/web-settings5.psb) center center no-repeat;
+  background: url(../img/web-settings1.png) center center no-repeat;
   background-size: contain;
   width: 56px;
   height: 56px;
@@ -746,7 +755,7 @@ margin-top: 130px;
 }
 
 .block-logo-6{
-  background: url(../img/rocket6.psb) center center no-repeat;
+  background: url(../img/rocket1.png) center center no-repeat;
   background-size: contain;
   width: 56px;
   height: 56px;
@@ -780,8 +789,8 @@ background-color: #dadee9;
 height: 107px;
 }
 
-.icon-sms{
-  background: url(../img/sms-bottom.psb) center center no-repeat;
+.icon-sms-1{
+  background: url(../img/sms-bottom.png) center center no-repeat;
   background-size: contain;
   list-style: none;
   width: 20px;
@@ -797,7 +806,7 @@ height: 107px;
 
 
 .footer-logo-tel{
-background: url(../img/telephone-bottom.psb) center center no-repeat;
+background: url(../img/telephone1.png) center center no-repeat;
 background-size: contain;
 width: 17px;
 height:17px;
@@ -825,7 +834,7 @@ align-items: center;
 }
 
 .footer-logo-maps{
-background: url(../img/maps-bottom.psb) center center no-repeat;
+background: url(../img/placeholder-filled-point1.png) center center no-repeat;
 background-size: contain;
 width: 17px;
 height:17px;
